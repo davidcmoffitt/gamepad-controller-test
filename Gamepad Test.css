@@ -1,0 +1,194 @@
+  #gamepads > * {
+  background: white;
+  padding: 1em;
+  margin: 10px 0 0 0;
+  border-width: 1px;
+  border-color: #EEEEEF;
+  border-style: solid;
+  box-shadow: 0 10px 30px -5px rgba(10, 16, 34, 0.2);
+}
+#gamepads pre {
+  white-space: pre-wrap;
+}
+
+.head .id {
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+  font-size: 22px;
+}
+
+.inputs {
+  display: block;
+}
+.axes {
+  display: block;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: block;
+}
+
+.svg text {
+  color: #ccc;
+}
+
+.axes svg text {
+  font-size: 0.5px;
+}
+.buttons svg text {
+  font-size: 1px;
+}
+.axes > div,
+.buttons > div {
+  display: inline-block;
+  background: none;
+}
+.axes > div {
+  margin: 0px 0px 0 0;
+}
+.buttons > div {
+  margin: 0px 2px 0 0;
+}
+
+.gamepadtablestyle {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.gamepadtablestyle thead {
+  background: #FF0C00;
+  color: #fff;
+  font-size: 12px;
+}
+
+.gamepadtablestyle td,
+.gamepadtablestyle th {
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center; 
+}
+
+.gamepadtablestyle thead th {
+  padding: 10px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.gamepadtablestyle tr {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.gamepadtablestyle tbody tr:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  box-shadow: 0 0 20px -4px rgba(0, 0, 0, 0.15);
+}
+
+.gamepadtablestyle tbody tr {
+  border: 1px solid #e1e1e1;
+  margin-bottom: 0px;
+  font-size:16px;
+}
+
+.gamepadtablestyle tr td:first-child,
+.gamepadtablestyle tr th:first-child {
+  width: 20%;
+}
+
+.gamepadtablestyle tr td:nth-child(2),
+.gamepadtablestyle tr th:nth-child(2) {
+  width: 20%;
+}
+
+.gamepadtablestyle tr td:nth-child(3),
+.gamepadtablestyle tr th:nth-child(3) {
+  width: 20%;
+}
+
+.gamepadtablestyle tr td:last-child,
+.gamepadtablestyle tr th:last-child {
+  width: 40%;
+}
+
+
+
+
+
+.gamepadtablestyle1 {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.gamepadtablestyle1 thead {
+  background: #FF0C00;
+  color: #fff;
+  font-size: 12px;
+}
+
+.gamepadtablestyle1 td,
+.gamepadtablestyle1 th {
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center; 
+}
+
+.gamepadtablestyle1 thead th {
+  padding: 10px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.gamepadtablestyle1 tr {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.gamepadtablestyle1 tbody tr:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  box-shadow: 0 0 20px -4px rgba(0, 0, 0, 0.15);
+}
+
+.gamepadtablestyle1 tbody tr {
+  border: 1px solid #e1e1e1;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.gamepadtablestyle1 tr td:first-child,
+.gamepadtablestyle1 tr th:first-child {
+  width: 20%;
+}
+
+.gamepadtablestyle1 tr td:nth-child(2),
+.gamepadtablestyle1 tr th:nth-child(2) {
+  width: 20%;
+}
+
+.gamepadtablestyle1 tr td:nth-child(3),
+.gamepadtablestyle1 tr th:nth-child(3) {
+  width: 20%;
+}
+
+.gamepadtablestyle1 tr td:nth-child(4),
+.gamepadtablestyle1 tr th:nth-child(4) {
+  width: 20%;
+}
+
+
+.gamepadtablestyle1 tr td:last-child,
+.gamepadtablestyle1 tr th:last-child {
+  width: 20%;
+}
