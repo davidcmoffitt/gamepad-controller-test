@@ -3,6 +3,6 @@ Gamepads are often used as replacements for Mouse / Keyboard. While it is not po
 
 ## Testing
 
-Test your gamepad on https://gamepadtest.com
+Test your gamepad on https://gamepadtest.com OR https://online-gamepad-test.stackblitz.io/
 
 ![Gamepad Controller Test in Work](gamepad-controller-test.png)
